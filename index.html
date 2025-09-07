@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Workshop - Responsive Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Community Workshop</h1>
+    <p class="tagline">Learn. Build. Grow.</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#learn">Learn</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#sessions">Sessions</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grid-layout">
+    <article class="content">
+      <section id="about">
+        <h2>About the Workshop</h2>
+        <p>Our Community Workshop is designed to teach modern web development skills in a friendly and collaborative environment.</p>
+      </section>
+
+      <section id="learn">
+        <h2>What You'll Learn</h2>
+        <ul>
+          <li>Semantic HTML structure</li>
+          <li>CSS styling and the Box Model</li>
+          <li>Flexbox & Grid layouts</li>
+          <li>Responsive Web Design principles</li>
+        </ul>
+      </section>
+
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tier</th>
+              <th>Includes</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Student</td>
+              <td>All sessions + certificate</td>
+              <td>$29</td>
+            </tr>
+            <tr>
+              <td>Standard</td>
+              <td>Sessions + certificate + resources</td>
+              <td>$59</td>
+            </tr>
+            <tr>
+              <td>Pro</td>
+              <td>Everything + 1:1 mentor review</td>
+              <td>$99</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="sessions" class="cards">
+        <h2>Upcoming Sessions</h2>
+        <div class="card">Intro to HTML & CSS</div>
+        <div class="card">Responsive Design Basics</div>
+        <div class="card">Flexbox & Grid in Practice</div>
+      </section>
+    </article>
+
+    <aside class="sidebar">
+      <h2>Quick Facts</h2>
+      <ul>
+        <li>📅 Starts: Sept 15, 2025</li>
+        <li>⏰ Duration: 4 Weeks</li>
+        <li>🌐 Location: Online</li>
+      </ul>
+      <section id="register">
+        <h2>Register</h2>
+        <button>Join Now</button>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Community Workshop</p>
+  </footer>
+</body>
+</html>
